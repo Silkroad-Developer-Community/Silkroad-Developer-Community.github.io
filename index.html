@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Silkroad Developer Community</title>
+    <meta name="description" content="Providing cutting-edge tools and research for the Silkroad Online community." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/app.ico" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <nav class="container nav">
+          <a href="/" class="brand">
+            <img src="/app.ico" alt="RSBot Logo" width="24" height="24" />
+            <span>Silkroad Developer Community</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+            <li><a href="#governance" class="nav-link">Governance</a></li>
+            <li><a href="https://discord.gg/FEmNcz7QwP" target="_blank" class="nav-link">Discord</a></li>
+            <li><a href="https://github.com/Silkroad-Developer-Community" target="_blank" class="nav-link">GitHub</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="home-view">
+          <section id="roadmap-teaser" class="content-section teaser-section">
+            <div class="container teaser-container">
+              <div class="teaser-header">
+                <h2 class="section-title">Community Roadmap</h2>
+                <a href="#roadmap" class="btn btn-sm btn-secondary">View Full Roadmap →</a>
+              </div>
+              <div id="roadmap-teaser-content" class="teaser-content">
+                <div class="loading-state">
+                  <p>Loading Roadmap...</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="projects content-section" id="projects">
+            <div class="container">
+              <div class="project-grid">
+                <div class="project-card" data-repo="Silkroad-Developer-Community/RSBot">
+                  <a href="https://github.com/Silkroad-Developer-Community/RSBot" class="stretched-link" aria-label="RSBot Source Code"></a>
+                  <div class="project-header">
+                    <h3>RSBot</h3>
+                    <span class="project-status">Loading...</span>
+                  </div>
+                  <div class="project-stats" id="stats-RSBot">
+                    <div class="stat-item" title="Stars"><i data-lucide="star"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Forks"><i data-lucide="git-fork"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Issues"><i data-lucide="circle-dot"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Latest Release"><i data-lucide="calendar"></i><span class="stat-value">--</span></div>
+                  </div>
+                  <p>Free, open source Silkroad Online bot supporting multiple clients. Continuing on the legacy.</p>
+                  <div class="project-links">
+                    <span class="btn btn-sm btn-secondary">Source</span>
+                    <a href="/RSBot" class="btn btn-sm btn-secondary">Docs</a>
+                    <a href="https://github.com/Silkroad-Developer-Community/RSBot/issues" class="btn btn-sm btn-secondary">Issues</a>
+                    <a href="https://github.com/Silkroad-Developer-Community/RSBot/issues/new/choose" class="btn btn-sm btn-secondary">Report an issue</a>
+                  </div>
+                </div>
+
+                <div class="project-card" data-repo="Silkroad-Developer-Community/RSBot-Manager">
+                  <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager" class="stretched-link" aria-label="RSBot Manager Source Code"></a>
+                  <div class="project-header">
+                    <h3>RSBot Manager</h3>
+                    <span class="project-status">Loading...</span>
+                  </div>
+                  <div class="project-stats" id="stats-RSBot-Manager">
+                    <div class="stat-item" title="Stars"><i data-lucide="star"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Forks"><i data-lucide="git-fork"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Issues"><i data-lucide="circle-dot"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Latest Release"><i data-lucide="calendar"></i><span class="stat-value">--</span></div>
+                  </div>
+                  <p>Simple manager for RSBot.</p>
+                  <div class="project-links">
+                    <span class="btn btn-sm btn-secondary">Source</span>
+                    <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager/issues" class="btn btn-sm btn-secondary">Issues</a>
+                    <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager/issues/new/choose" class="btn btn-sm btn-secondary">Report an issue</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="community content-section">
+            <div class="container community-container">
+              <h2 class="section-title">Join the Conversation</h2>
+              <p>Our community is active and welcoming. Join our Discord server to get announcements and report bugs.</p>
+              <a href="https://discord.gg/FEmNcz7QwP" target="_blank" class="btn btn-discord">Join Discord</a>
+            </div>
+          </section>
+        </div>
+
+        <div id="governance-view" style="display: none">
+          <section class="content-section">
+            <div class="container">
+              <div class="info-nav">
+                <a href="#" class="btn btn-secondary btn-sm">← Back to Home</a>
+              </div>
+              <div id="markdown-content" class="markdown-body">
+                <div class="loading-state">
+                  <p>Loading Documentation...</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div id="roadmap-view" style="display: none">
+          <section class="content-section">
+            <div class="container">
+              <div class="info-nav">
+                <a href="#" class="btn btn-secondary btn-sm">← Back to Home</a>
+              </div>
+              <div id="roadmap-content" class="markdown-body">
+                <div class="loading-state">
+                  <p>Loading Roadmap Documentation...</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer-container">
+          <div class="footer-bottom">
+            <div class="footer-info">
+              <p>&copy; 2026 Silkroad Developer Community. MIT Licensed.</p>
+            </div>
+            <div class="footer-links">
+              <a href="https://github.com/Silkroad-Developer-Community">Organization</a>
+            </div>
+          </div>
+          <div class="footer-disclaimer">
+            <p>This community is not affiliated with, authorized, or endorsed by Joymax, WeMadeMax, or any official Silkroad Online developers.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
