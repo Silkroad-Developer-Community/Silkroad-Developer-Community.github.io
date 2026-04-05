@@ -19,7 +19,11 @@
             <img src="/app.ico" alt="RSBot Logo" width="24" height="24" />
             <span>Silkroad Developer Community</span>
           </a>
+          <button class="menu-button" id="menuToggle" aria-label="Toggle Navigation">
+            <i data-lucide="menu"></i>
+          </button>
           <ul class="nav-links">
+            <li><a href="#tools" class="nav-link">Tools</a></li>
             <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
             <li><a href="#governance" class="nav-link">Governance</a></li>
             <li><a href="https://discord.gg/FEmNcz7QwP" target="_blank" class="nav-link">Discord</a></li>
@@ -47,7 +51,7 @@
           <section class="projects content-section" id="projects">
             <div class="container">
               <div class="project-grid">
-                <div class="project-card" data-repo="Silkroad-Developer-Community/RSBot">
+                <div class="project-card" data-repo="Silkroad-Developer-Community/RSBot" data-asset-pattern="RSBot-Setup-*.zip">
                   <a href="https://github.com/Silkroad-Developer-Community/RSBot" class="stretched-link" aria-label="RSBot Source Code"></a>
                   <div class="project-header">
                     <h3>RSBot</h3>
@@ -59,16 +63,19 @@
                     <div class="stat-item" title="Issues"><i data-lucide="circle-dot"></i><span class="stat-value">--</span></div>
                     <div class="stat-item" title="Latest Release"><i data-lucide="calendar"></i><span class="stat-value">--</span></div>
                   </div>
-                  <p>Free, open source Silkroad Online bot supporting multiple clients. Continuing on the legacy.</p>
-                  <div class="project-links">
-                    <span class="btn btn-sm btn-secondary">Source</span>
-                    <a href="/RSBot" class="btn btn-sm btn-secondary">Docs</a>
-                    <a href="https://github.com/Silkroad-Developer-Community/RSBot/issues" class="btn btn-sm btn-secondary">Issues</a>
-                    <a href="https://github.com/Silkroad-Developer-Community/RSBot/issues/new/choose" class="btn btn-sm btn-secondary">Report an issue</a>
+                  <p>Loading description...</p>
+                  <div class="project-actions">
+                    <div class="download-row"></div>
+                    <div class="project-links links-row">
+                      <span class="btn btn-sm btn-secondary">Source</span>
+                      <a href="/RSBot" class="btn btn-sm btn-secondary">Docs</a>
+                      <a href="https://github.com/Silkroad-Developer-Community/RSBot/issues" class="btn btn-sm btn-secondary">Issues</a>
+                      <a href="https://github.com/Silkroad-Developer-Community/RSBot/issues/new/choose" class="btn btn-sm btn-secondary">Report an issue</a>
+                    </div>
                   </div>
                 </div>
 
-                <div class="project-card" data-repo="Silkroad-Developer-Community/RSBot-Manager">
+                <div class="project-card" data-repo="Silkroad-Developer-Community/RSBot-Manager" data-asset-pattern="RSBotManager.exe">
                   <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager" class="stretched-link" aria-label="RSBot Manager Source Code"></a>
                   <div class="project-header">
                     <h3>RSBot Manager</h3>
@@ -80,13 +87,69 @@
                     <div class="stat-item" title="Issues"><i data-lucide="circle-dot"></i><span class="stat-value">--</span></div>
                     <div class="stat-item" title="Latest Release"><i data-lucide="calendar"></i><span class="stat-value">--</span></div>
                   </div>
-                  <p>Simple manager for RSBot.</p>
-                  <div class="project-links">
-                    <span class="btn btn-sm btn-secondary">Source</span>
-                    <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager/issues" class="btn btn-sm btn-secondary">Issues</a>
-                    <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager/issues/new/choose" class="btn btn-sm btn-secondary">Report an issue</a>
+                  <p>Loading description...</p>
+                  <div class="project-actions">
+                    <div class="download-row"></div>
+                    <div class="project-links links-row">
+                      <span class="btn btn-sm btn-secondary">Source</span>
+                      <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager/issues" class="btn btn-sm btn-secondary">Issues</a>
+                      <a href="https://github.com/Silkroad-Developer-Community/RSBot-Manager/issues/new/choose" class="btn btn-sm btn-secondary">Report an issue</a>
+                    </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="tools content-section" id="tools">
+            <div class="container">
+              <h2 class="section-title">Essential Tools & Information</h2>
+              <div class="project-grid">
+                <div class="project-card" data-repo="DummkopfOfHachtenduden/SilkroadDoc">
+                  <a href="https://github.com/DummkopfOfHachtenduden/SilkroadDoc" class="stretched-link" aria-label="SilkroadDoc Source Code" target="_blank"></a>
+                  <div class="project-header">
+                    <h3>SilkroadDoc</h3>
+                    <span class="project-status">Loading...</span>
+                  </div>
+                  <div class="project-stats">
+                    <div class="stat-item" title="Stars"><i data-lucide="star"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Forks"><i data-lucide="git-fork"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Issues"><i data-lucide="circle-dot"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Latest Release"><i data-lucide="calendar"></i><span class="stat-value">--</span></div>
+                  </div>
+                  <p>Loading description...</p>
+                  <div class="project-actions">
+                    <div class="download-row"></div>
+                    <div class="project-links links-row">
+                      <span class="btn btn-sm btn-secondary">Source</span>
+                      <a href="https://github.com/DummkopfOfHachtenduden/SilkroadDoc/wiki" class="btn btn-sm btn-secondary" target="_blank">Wiki</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="project-card" data-repo="Veykril/pk2">
+                  <a href="https://github.com/Veykril/pk2" class="stretched-link" aria-label="pk2 Source Code" target="_blank"></a>
+                  <div class="project-header">
+                    <h3>pk2</h3>
+                    <span class="project-status">Loading...</span>
+                  </div>
+                  <div class="project-stats">
+                    <div class="stat-item" title="Stars"><i data-lucide="star"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Forks"><i data-lucide="git-fork"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Issues"><i data-lucide="circle-dot"></i><span class="stat-value">--</span></div>
+                    <div class="stat-item" title="Latest Release"><i data-lucide="calendar"></i><span class="stat-value">--</span></div>
+                  </div>
+                  <p>Loading description...</p>
+                  <div class="project-actions">
+                    <div class="download-row"></div>
+                    <div class="project-links links-row">
+                      <span class="btn btn-sm btn-secondary">Source</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="section-footer">
+                <p>More soon!</p>
               </div>
             </div>
           </section>
