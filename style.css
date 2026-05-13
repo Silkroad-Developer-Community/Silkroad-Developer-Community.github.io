@@ -665,3 +665,31 @@ span.btn {
 .teaser-content .markdown-body ul {
   margin-bottom: 0.75rem;
 }
+
+/* Fix for details/summary headings */
+.markdown-body summary > h1,
+.markdown-body summary > h2,
+.markdown-body summary > h3,
+.markdown-body summary > h4,
+.markdown-body summary > h5,
+.markdown-body summary > h6 {
+  border: none;
+  display: inline;
+  margin: 0 !important;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.markdown-body summary {
+  cursor: pointer;
+  padding: 0.25rem 0;
+}
+
+.markdown-body summary:hover {
+  color: var(--accent);
+}
+
+.markdown-body details {
+  margin-bottom: 1rem;
+}
+
