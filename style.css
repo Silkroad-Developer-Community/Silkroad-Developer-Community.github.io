@@ -242,7 +242,7 @@ body {
 .project-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .project-card {
@@ -264,6 +264,10 @@ body {
   border-color: var(--accent);
   box-shadow: 0 10px 30px -10px rgb(0 0 0 / 50%);
   transform: translateY(-4px);
+}
+
+.project-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
 }
 
 .stretched-link::after {
@@ -477,6 +481,10 @@ span.btn {
     display: none; /* Hide for simplicity on mobile in "no bullshit" v1 */
   }
 
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
   .footer-bottom {
     align-items: flex-start;
     flex-direction: column;
@@ -616,6 +624,7 @@ span.btn {
 .teaser-container {
   background-color: rgb(255 255 255 / 2%);
   border: 1px solid var(--border-color);
+  border-radius: 12px;
   padding: 2rem;
 }
 
